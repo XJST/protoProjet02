@@ -5,7 +5,7 @@ INJECTED from D:\Android\Projects\MyApplication\app\src\main\AndroidManifest.xml
 INJECTED from D:\Android\Projects\MyApplication\app\src\main\AndroidManifest.xml:2:1-22:12
 INJECTED from D:\Android\Projects\MyApplication\app\src\main\AndroidManifest.xml:2:1-22:12
 MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\68ef2e22458bb90a0aa605896cd4e67a\AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\58390436d4b53de7bfcd899b400196a7\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\867728123c041d6a38965bb3c3ecc7b1\AndroidManifest.xml:2:1-11:12
 MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\e9e9810afdd6b5018a53350e0618e797\AndroidManifest.xml:17:1-28:12
 MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\f9773c473d8cb5fb00a9dd222f2ad06b\AndroidManifest.xml:17:1-28:12
 MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\c6f2062565e0a671633aa290bb44cc70\AndroidManifest.xml:17:1-31:12
@@ -36,8 +36,8 @@ application
 ADDED from D:\Android\Projects\MyApplication\app\src\main\AndroidManifest.xml:5:5-20:19
 MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\68ef2e22458bb90a0aa605896cd4e67a\AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\68ef2e22458bb90a0aa605896cd4e67a\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\58390436d4b53de7bfcd899b400196a7\AndroidManifest.xml:9:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\58390436d4b53de7bfcd899b400196a7\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\867728123c041d6a38965bb3c3ecc7b1\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\867728123c041d6a38965bb3c3ecc7b1\AndroidManifest.xml:9:5-20
 MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\e9e9810afdd6b5018a53350e0618e797\AndroidManifest.xml:22:5-26:19
 MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\e9e9810afdd6b5018a53350e0618e797\AndroidManifest.xml:22:5-26:19
 MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\f9773c473d8cb5fb00a9dd222f2ad06b\AndroidManifest.xml:22:5-26:19
@@ -90,8 +90,8 @@ INJECTED from D:\Android\Projects\MyApplication\app\src\main\AndroidManifest.xml
 INJECTED from D:\Android\Projects\MyApplication\app\src\main\AndroidManifest.xml
 MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\68ef2e22458bb90a0aa605896cd4e67a\AndroidManifest.xml:21:5-23:78
 MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\68ef2e22458bb90a0aa605896cd4e67a\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\58390436d4b53de7bfcd899b400196a7\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\58390436d4b53de7bfcd899b400196a7\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\867728123c041d6a38965bb3c3ecc7b1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\867728123c041d6a38965bb3c3ecc7b1\AndroidManifest.xml:5:5-7:41
 MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\e9e9810afdd6b5018a53350e0618e797\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\e9e9810afdd6b5018a53350e0618e797\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\f9773c473d8cb5fb00a9dd222f2ad06b\AndroidManifest.xml:20:5-44

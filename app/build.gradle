@@ -25,4 +25,15 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.1'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
+
+    //// -- Apisense's dependencies
+    compile 'io.apisense.sdk:apisense-android-sdk:1.11.0'
+
+    // If you want to be able import more stings in APISENSE
+    compile 'io.apisense.sdk:stings-network:1.11.0'
+    compile 'io.apisense.sdk:stings-phone:1.11.0'
+    compile 'io.apisense.sdk:stings-environment:1.11.0'
+    compile 'io.apisense.sdk:stings-motion:1.11.0'
+    //compile 'io.apisense.sdk:stings-visualization:1.11.0'
+    //// -- Apisense's dependencies
 }
