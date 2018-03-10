@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="io.apisense.network:android-network-measures-1.1.2">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/android-network-measures-1.1.2.aar/8c16af54a637438736db9bcf091806df/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/android-network-measures-1.1.2.aar/8c16af54a637438736db9bcf091806df/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.apisense.network/android-network-measures/1.1.2/d5696dde7e3b8148691f485fe522578ab6572590/android-network-measures-1.1.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

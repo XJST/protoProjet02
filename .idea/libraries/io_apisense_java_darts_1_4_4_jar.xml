@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="io.apisense:java-darts:1.4.4@jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.apisense/java-darts/1.4.4/95b6632b134cda3b4e127abfb730d25ec1de42a4/java-darts-1.4.4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.apisense/java-darts/1.4.4/7525de4635ea6ab6a47022b0b8717eafd8619710/java-darts-1.4.4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

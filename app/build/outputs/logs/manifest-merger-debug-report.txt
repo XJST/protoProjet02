@@ -1,119 +1,249 @@
 -- Merging decision tree log ---
+provider#android.support.v4.content.FileProvider
+INJECTED from D:\Android\Projects\MyApplication\app\src\main\AndroidManifest.xml:46:9-55:20
+	android:grantUriPermissions
+		ADDED from D:\Android\Projects\MyApplication\app\src\main\AndroidManifest.xml:50:13-47
+	android:authorities
+		INJECTED from D:\Android\Projects\MyApplication\app\src\main\AndroidManifest.xml
+		ADDED from D:\Android\Projects\MyApplication\app\src\main\AndroidManifest.xml:48:13-67
+	android:exported
+		ADDED from D:\Android\Projects\MyApplication\app\src\main\AndroidManifest.xml:49:13-37
+	android:name
+		ADDED from D:\Android\Projects\MyApplication\app\src\main\AndroidManifest.xml:47:13-67
 manifest
-ADDED from D:\Android\Projects\MyApplication\app\src\main\AndroidManifest.xml:2:1-22:12
-INJECTED from D:\Android\Projects\MyApplication\app\src\main\AndroidManifest.xml:2:1-22:12
-INJECTED from D:\Android\Projects\MyApplication\app\src\main\AndroidManifest.xml:2:1-22:12
-INJECTED from D:\Android\Projects\MyApplication\app\src\main\AndroidManifest.xml:2:1-22:12
-MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\68ef2e22458bb90a0aa605896cd4e67a\AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\867728123c041d6a38965bb3c3ecc7b1\AndroidManifest.xml:2:1-11:12
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\e9e9810afdd6b5018a53350e0618e797\AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\f9773c473d8cb5fb00a9dd222f2ad06b\AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\c6f2062565e0a671633aa290bb44cc70\AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\12b633fbc89e0c63bfe2cdb8b86145ab\AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\4d9926d5e9c5625af484b2e1df41d1bb\AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\9900824c4d2d7b5dc461e5c88978f4a8\AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\b702350e43307ee3e60a46c71f2e8305\AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\38c6bad688684e410a0b185c0798de7d\AndroidManifest.xml:17:1-31:12
-MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\08f7633df1a58bc328b704fe64ee4115\AndroidManifest.xml:17:1-30:12
-INJECTED from D:\Android\Projects\MyApplication\app\src\main\AndroidManifest.xml:2:1-22:12
-INJECTED from D:\Android\Projects\MyApplication\app\src\main\AndroidManifest.xml:2:1-22:12
-INJECTED from D:\Android\Projects\MyApplication\app\src\main\AndroidManifest.xml:2:1-22:12
+ADDED from D:\Android\Projects\MyApplication\app\src\main\AndroidManifest.xml:2:1-84:12
+INJECTED from D:\Android\Projects\MyApplication\app\src\main\AndroidManifest.xml:2:1-84:12
+INJECTED from D:\Android\Projects\MyApplication\app\src\main\AndroidManifest.xml:2:1-84:12
+INJECTED from D:\Android\Projects\MyApplication\app\src\main\AndroidManifest.xml:2:1-84:12
+MERGED from [io.apisense.sdk:stings-phone:1.12.0-SNAPSHOT] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\stings-phone-1.12.0-SNAPSHOT.aar\54748820a5e760f0bd70f38a9f70724a\AndroidManifest.xml:2:1-17:12
+MERGED from [io.apisense.sdk:stings-visualization:1.12.0-SNAPSHOT] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\stings-visualization-1.12.0-SNAPSHOT.aar\0b1b70a457028a1f7b36e7068871b3bb\AndroidManifest.xml:2:1-12:12
+MERGED from [io.apisense.sdk:stings-network:1.12.0-SNAPSHOT] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\stings-network-1.12.0-SNAPSHOT.aar\fbd2e157f2e5deefec3580f9168d9320\AndroidManifest.xml:2:1-14:12
+MERGED from [io.apisense.network:android-network-measures:1.1.2] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\android-network-measures-1.1.2.aar\8c16af54a637438736db9bcf091806df\AndroidManifest.xml:2:1-15:12
+MERGED from [io.apisense.sdk:stings-motion:1.12.0-SNAPSHOT] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\stings-motion-1.12.0-SNAPSHOT.aar\b43d6b15f69fbe66d42fe0d1c23752c6\AndroidManifest.xml:2:1-14:12
+MERGED from [io.apisense.sdk:stings-environment:1.12.0-SNAPSHOT] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\stings-environment-1.12.0-SNAPSHOT.aar\35641f283014d1176f0f3a3285a57f2a\AndroidManifest.xml:2:1-14:12
+MERGED from [io.apisense.sdk:apisense-android-sdk:1.12.0-SNAPSHOT] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\apisense-android-sdk-1.12.0-SNAPSHOT.aar\ce0de1d3dc77c92af48cf068d7412f06\AndroidManifest.xml:2:1-24:12
+MERGED from [com.github.dkharrat.nexusdialog:nexusdialog:0.4.2] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\nexusdialog-0.4.2.aar\6b2a9ce3417f0f8956d96ef8005ce178\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:appcompat-v7:27.0.2] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\439f8d20b4f0cf1d6c983b67b90dc463\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\31ed04ec9bbcac710e3219b0bf6c61ef\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.firebase:firebase-messaging:11.8.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.8.0.aar\ed7b532cd099f56829b9c22b6834e0c2\AndroidManifest.xml:17:1-37:12
+MERGED from [com.google.dagger:dagger-android:2.10] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\dagger-android-2.10.aar\8279f54a33bc8335cb487c25dcc4f6e9\AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\c267406dbb6c13ca848cabbe92b1be94\AndroidManifest.xml:17:1-59:12
+MERGED from [com.google.firebase:firebase-common:11.8.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\firebase-common-11.8.0.aar\1444c761bdb7b5385d5372b265a7de21\AndroidManifest.xml:2:1-15:12
+MERGED from [com.google.android.gms:play-services-tasks:11.8.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.8.0.aar\f0972ae28b73a54f44af46de0358c44e\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.8.0.aar\d6d584f12e8c844bb3c2c2e7d4d988f5\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:27.0.2] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\support-v4-27.0.2.aar\03f682c8312bf3e5599ba5a710117476\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.0.2] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.0.2.aar\01ab89d0805d2bf98d484f756f57603b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.2.aar\4798da09ba887ad23b2199e24df1cec3\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.2.aar\37e868cb4411c1419c39c1172821a38b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.2.aar\bc7ee29ee2a70819d131322627607e8a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.2.aar\be477ffe8ae65b05493e45506ffb587a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.0.2] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.2.aar\9530b6ac1899deb2e456227f85f04785\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.0.2] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.2.aar\d03d03df70c33d792ed5f4bbaa0599d4\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-messaging-license:11.8.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\firebase-messaging-license-11.8.0.aar\eedbe0ed54433eb1d2fd6d0cf4f538f5\AndroidManifest.xml:2:1-6:12
+MERGED from [org.osmdroid:osmdroid-android:5.6.4] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\osmdroid-android-5.6.4.aar\b7ab0afb7b82a4e3a203a7a653c3ec95\AndroidManifest.xml:2:1-37:12
+MERGED from [com.google.maps.android:android-maps-utils:0.4] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\android-maps-utils-0.4.aar\d0d7dd46cae20b932852b74b242c7d46\AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.firebase:firebase-iid-license:11.8.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\firebase-iid-license-11.8.0.aar\d2248222010f8a6df1d952b7efee3add\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.8.0.aar\c0b441015505c8e6d77ffd644820667f\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-common-license:11.8.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\firebase-common-license-11.8.0.aar\9d7801d4f7bc20b62a01e1af84e71427\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-11.8.0.aar\3267d6ddb70748066b5bb679e8fd2921\AndroidManifest.xml:2:1-6:12
+MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\runtime-1.0.3.aar\5517902d7c5c581ac3d7d176274ed273\AndroidManifest.xml:17:1-24:12
+INJECTED from D:\Android\Projects\MyApplication\app\src\main\AndroidManifest.xml:2:1-84:12
+INJECTED from D:\Android\Projects\MyApplication\app\src\main\AndroidManifest.xml:2:1-84:12
+INJECTED from D:\Android\Projects\MyApplication\app\src\main\AndroidManifest.xml:2:1-84:12
 	package
 		ADDED from D:\Android\Projects\MyApplication\app\src\main\AndroidManifest.xml:3:5-45
 		INJECTED from D:\Android\Projects\MyApplication\app\src\main\AndroidManifest.xml
 		INJECTED from D:\Android\Projects\MyApplication\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from D:\Android\Projects\MyApplication\app\src\main\AndroidManifest.xml
-		ADDED from D:\Android\Projects\MyApplication\app\src\main\AndroidManifest.xml:2:1-22:12
+		ADDED from D:\Android\Projects\MyApplication\app\src\main\AndroidManifest.xml:2:1-84:12
 		INJECTED from D:\Android\Projects\MyApplication\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from D:\Android\Projects\MyApplication\app\src\main\AndroidManifest.xml
-		ADDED from D:\Android\Projects\MyApplication\app\src\main\AndroidManifest.xml:2:1-22:12
+		ADDED from D:\Android\Projects\MyApplication\app\src\main\AndroidManifest.xml:2:1-84:12
 		INJECTED from D:\Android\Projects\MyApplication\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from D:\Android\Projects\MyApplication\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from D:\Android\Projects\MyApplication\app\src\main\AndroidManifest.xml:7:5-66
+MERGED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\c267406dbb6c13ca848cabbe92b1be94\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\c267406dbb6c13ca848cabbe92b1be94\AndroidManifest.xml:23:5-67
+MERGED from [org.osmdroid:osmdroid-android:5.6.4] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\osmdroid-android-5.6.4.aar\b7ab0afb7b82a4e3a203a7a653c3ec95\AndroidManifest.xml:20:5-67
+MERGED from [org.osmdroid:osmdroid-android:5.6.4] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\osmdroid-android-5.6.4.aar\b7ab0afb7b82a4e3a203a7a653c3ec95\AndroidManifest.xml:20:5-67
+	android:name
+		ADDED from D:\Android\Projects\MyApplication\app\src\main\AndroidManifest.xml:7:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from D:\Android\Projects\MyApplication\app\src\main\AndroidManifest.xml:10:5-79
+MERGED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\c267406dbb6c13ca848cabbe92b1be94\AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\c267406dbb6c13ca848cabbe92b1be94\AndroidManifest.xml:22:5-79
+MERGED from [org.osmdroid:osmdroid-android:5.6.4] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\osmdroid-android-5.6.4.aar\b7ab0afb7b82a4e3a203a7a653c3ec95\AndroidManifest.xml:19:5-79
+MERGED from [org.osmdroid:osmdroid-android:5.6.4] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\osmdroid-android-5.6.4.aar\b7ab0afb7b82a4e3a203a7a653c3ec95\AndroidManifest.xml:19:5-79
+	android:name
+		ADDED from D:\Android\Projects\MyApplication\app\src\main\AndroidManifest.xml:10:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from D:\Android\Projects\MyApplication\app\src\main\AndroidManifest.xml:11:5-75
+MERGED from [org.osmdroid:osmdroid-android:5.6.4] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\osmdroid-android-5.6.4.aar\b7ab0afb7b82a4e3a203a7a653c3ec95\AndroidManifest.xml:18:5-76
+MERGED from [org.osmdroid:osmdroid-android:5.6.4] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\osmdroid-android-5.6.4.aar\b7ab0afb7b82a4e3a203a7a653c3ec95\AndroidManifest.xml:18:5-76
+	android:name
+		ADDED from D:\Android\Projects\MyApplication\app\src\main\AndroidManifest.xml:11:22-73
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from D:\Android\Projects\MyApplication\app\src\main\AndroidManifest.xml:14:5-79
+MERGED from [org.osmdroid:osmdroid-android:5.6.4] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\osmdroid-android-5.6.4.aar\b7ab0afb7b82a4e3a203a7a653c3ec95\AndroidManifest.xml:16:5-79
+MERGED from [org.osmdroid:osmdroid-android:5.6.4] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\osmdroid-android-5.6.4.aar\b7ab0afb7b82a4e3a203a7a653c3ec95\AndroidManifest.xml:16:5-79
+	android:name
+		ADDED from D:\Android\Projects\MyApplication\app\src\main\AndroidManifest.xml:14:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from D:\Android\Projects\MyApplication\app\src\main\AndroidManifest.xml:15:5-81
+MERGED from [org.osmdroid:osmdroid-android:5.6.4] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\osmdroid-android-5.6.4.aar\b7ab0afb7b82a4e3a203a7a653c3ec95\AndroidManifest.xml:17:5-81
+MERGED from [org.osmdroid:osmdroid-android:5.6.4] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\osmdroid-android-5.6.4.aar\b7ab0afb7b82a4e3a203a7a653c3ec95\AndroidManifest.xml:17:5-81
+	android:name
+		ADDED from D:\Android\Projects\MyApplication\app\src\main\AndroidManifest.xml:15:22-78
+uses-permission#android.permission.ACCESS_COARSE_UPDATES
+ADDED from D:\Android\Projects\MyApplication\app\src\main\AndroidManifest.xml:16:5-80
+	android:name
+		ADDED from D:\Android\Projects\MyApplication\app\src\main\AndroidManifest.xml:16:22-77
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from D:\Android\Projects\MyApplication\app\src\main\AndroidManifest.xml:19:5-75
+	android:name
+		ADDED from D:\Android\Projects\MyApplication\app\src\main\AndroidManifest.xml:19:22-72
 application
-ADDED from D:\Android\Projects\MyApplication\app\src\main\AndroidManifest.xml:5:5-20:19
-MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\68ef2e22458bb90a0aa605896cd4e67a\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\68ef2e22458bb90a0aa605896cd4e67a\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\867728123c041d6a38965bb3c3ecc7b1\AndroidManifest.xml:9:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\867728123c041d6a38965bb3c3ecc7b1\AndroidManifest.xml:9:5-20
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\e9e9810afdd6b5018a53350e0618e797\AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\e9e9810afdd6b5018a53350e0618e797\AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\f9773c473d8cb5fb00a9dd222f2ad06b\AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\f9773c473d8cb5fb00a9dd222f2ad06b\AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\c6f2062565e0a671633aa290bb44cc70\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\c6f2062565e0a671633aa290bb44cc70\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\12b633fbc89e0c63bfe2cdb8b86145ab\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\12b633fbc89e0c63bfe2cdb8b86145ab\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\4d9926d5e9c5625af484b2e1df41d1bb\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\4d9926d5e9c5625af484b2e1df41d1bb\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\9900824c4d2d7b5dc461e5c88978f4a8\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\9900824c4d2d7b5dc461e5c88978f4a8\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\b702350e43307ee3e60a46c71f2e8305\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\b702350e43307ee3e60a46c71f2e8305\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\38c6bad688684e410a0b185c0798de7d\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\38c6bad688684e410a0b185c0798de7d\AndroidManifest.xml:25:5-29:19
-MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\08f7633df1a58bc328b704fe64ee4115\AndroidManifest.xml:24:5-28:19
-MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\08f7633df1a58bc328b704fe64ee4115\AndroidManifest.xml:24:5-28:19
+ADDED from D:\Android\Projects\MyApplication\app\src\main\AndroidManifest.xml:35:5-82:19
+MERGED from [io.apisense.sdk:stings-phone:1.12.0-SNAPSHOT] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\stings-phone-1.12.0-SNAPSHOT.aar\54748820a5e760f0bd70f38a9f70724a\AndroidManifest.xml:11:5-15:19
+MERGED from [io.apisense.sdk:stings-phone:1.12.0-SNAPSHOT] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\stings-phone-1.12.0-SNAPSHOT.aar\54748820a5e760f0bd70f38a9f70724a\AndroidManifest.xml:11:5-15:19
+MERGED from [io.apisense.sdk:stings-network:1.12.0-SNAPSHOT] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\stings-network-1.12.0-SNAPSHOT.aar\fbd2e157f2e5deefec3580f9168d9320\AndroidManifest.xml:12:5-20
+MERGED from [io.apisense.sdk:stings-network:1.12.0-SNAPSHOT] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\stings-network-1.12.0-SNAPSHOT.aar\fbd2e157f2e5deefec3580f9168d9320\AndroidManifest.xml:12:5-20
+MERGED from [io.apisense.network:android-network-measures:1.1.2] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\android-network-measures-1.1.2.aar\8c16af54a637438736db9bcf091806df\AndroidManifest.xml:12:5-13:19
+MERGED from [io.apisense.network:android-network-measures:1.1.2] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\android-network-measures-1.1.2.aar\8c16af54a637438736db9bcf091806df\AndroidManifest.xml:12:5-13:19
+MERGED from [io.apisense.sdk:stings-motion:1.12.0-SNAPSHOT] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\stings-motion-1.12.0-SNAPSHOT.aar\b43d6b15f69fbe66d42fe0d1c23752c6\AndroidManifest.xml:12:5-20
+MERGED from [io.apisense.sdk:stings-motion:1.12.0-SNAPSHOT] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\stings-motion-1.12.0-SNAPSHOT.aar\b43d6b15f69fbe66d42fe0d1c23752c6\AndroidManifest.xml:12:5-20
+MERGED from [io.apisense.sdk:stings-environment:1.12.0-SNAPSHOT] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\stings-environment-1.12.0-SNAPSHOT.aar\35641f283014d1176f0f3a3285a57f2a\AndroidManifest.xml:12:5-20
+MERGED from [io.apisense.sdk:stings-environment:1.12.0-SNAPSHOT] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\stings-environment-1.12.0-SNAPSHOT.aar\35641f283014d1176f0f3a3285a57f2a\AndroidManifest.xml:12:5-20
+MERGED from [io.apisense.sdk:apisense-android-sdk:1.12.0-SNAPSHOT] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\apisense-android-sdk-1.12.0-SNAPSHOT.aar\ce0de1d3dc77c92af48cf068d7412f06\AndroidManifest.xml:11:5-22:19
+MERGED from [io.apisense.sdk:apisense-android-sdk:1.12.0-SNAPSHOT] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\apisense-android-sdk-1.12.0-SNAPSHOT.aar\ce0de1d3dc77c92af48cf068d7412f06\AndroidManifest.xml:11:5-22:19
+MERGED from [com.github.dkharrat.nexusdialog:nexusdialog:0.4.2] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\nexusdialog-0.4.2.aar\6b2a9ce3417f0f8956d96ef8005ce178\AndroidManifest.xml:9:5-20
+MERGED from [com.github.dkharrat.nexusdialog:nexusdialog:0.4.2] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\nexusdialog-0.4.2.aar\6b2a9ce3417f0f8956d96ef8005ce178\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\31ed04ec9bbcac710e3219b0bf6c61ef\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\31ed04ec9bbcac710e3219b0bf6c61ef\AndroidManifest.xml:9:5-20
+MERGED from [com.google.firebase:firebase-messaging:11.8.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.8.0.aar\ed7b532cd099f56829b9c22b6834e0c2\AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.firebase:firebase-messaging:11.8.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.8.0.aar\ed7b532cd099f56829b9c22b6834e0c2\AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\c267406dbb6c13ca848cabbe92b1be94\AndroidManifest.xml:34:5-57:19
+MERGED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\c267406dbb6c13ca848cabbe92b1be94\AndroidManifest.xml:34:5-57:19
+MERGED from [com.google.firebase:firebase-common:11.8.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\firebase-common-11.8.0.aar\1444c761bdb7b5385d5372b265a7de21\AndroidManifest.xml:7:5-13:19
+MERGED from [com.google.firebase:firebase-common:11.8.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\firebase-common-11.8.0.aar\1444c761bdb7b5385d5372b265a7de21\AndroidManifest.xml:7:5-13:19
+MERGED from [com.google.android.gms:play-services-tasks:11.8.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.8.0.aar\f0972ae28b73a54f44af46de0358c44e\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:11.8.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.8.0.aar\f0972ae28b73a54f44af46de0358c44e\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.8.0.aar\d6d584f12e8c844bb3c2c2e7d4d988f5\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.8.0.aar\d6d584f12e8c844bb3c2c2e7d4d988f5\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.firebase:firebase-messaging-license:11.8.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\firebase-messaging-license-11.8.0.aar\eedbe0ed54433eb1d2fd6d0cf4f538f5\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-messaging-license:11.8.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\firebase-messaging-license-11.8.0.aar\eedbe0ed54433eb1d2fd6d0cf4f538f5\AndroidManifest.xml:5:5-20
+MERGED from [com.google.maps.android:android-maps-utils:0.4] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\android-maps-utils-0.4.aar\d0d7dd46cae20b932852b74b242c7d46\AndroidManifest.xml:7:5-11:19
+MERGED from [com.google.maps.android:android-maps-utils:0.4] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\android-maps-utils-0.4.aar\d0d7dd46cae20b932852b74b242c7d46\AndroidManifest.xml:7:5-11:19
+MERGED from [com.google.firebase:firebase-iid-license:11.8.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\firebase-iid-license-11.8.0.aar\d2248222010f8a6df1d952b7efee3add\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-iid-license:11.8.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\firebase-iid-license-11.8.0.aar\d2248222010f8a6df1d952b7efee3add\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.8.0.aar\c0b441015505c8e6d77ffd644820667f\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.8.0.aar\c0b441015505c8e6d77ffd644820667f\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-common-license:11.8.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\firebase-common-license-11.8.0.aar\9d7801d4f7bc20b62a01e1af84e71427\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-common-license:11.8.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\firebase-common-license-11.8.0.aar\9d7801d4f7bc20b62a01e1af84e71427\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-11.8.0.aar\3267d6ddb70748066b5bb679e8fd2921\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-11.8.0.aar\3267d6ddb70748066b5bb679e8fd2921\AndroidManifest.xml:5:5-20
 	android:supportsRtl
-		ADDED from D:\Android\Projects\MyApplication\app\src\main\AndroidManifest.xml:10:9-35
+		ADDED from D:\Android\Projects\MyApplication\app\src\main\AndroidManifest.xml:40:9-35
 	android:label
-		ADDED from D:\Android\Projects\MyApplication\app\src\main\AndroidManifest.xml:8:9-41
+		ADDED from D:\Android\Projects\MyApplication\app\src\main\AndroidManifest.xml:38:9-41
 	android:roundIcon
-		ADDED from D:\Android\Projects\MyApplication\app\src\main\AndroidManifest.xml:9:9-54
+		ADDED from D:\Android\Projects\MyApplication\app\src\main\AndroidManifest.xml:39:9-54
 	android:icon
-		ADDED from D:\Android\Projects\MyApplication\app\src\main\AndroidManifest.xml:7:9-43
+		ADDED from D:\Android\Projects\MyApplication\app\src\main\AndroidManifest.xml:37:9-43
 	android:allowBackup
-		ADDED from D:\Android\Projects\MyApplication\app\src\main\AndroidManifest.xml:6:9-35
+		ADDED from D:\Android\Projects\MyApplication\app\src\main\AndroidManifest.xml:36:9-35
 	android:theme
-		ADDED from D:\Android\Projects\MyApplication\app\src\main\AndroidManifest.xml:11:9-40
+		ADDED from D:\Android\Projects\MyApplication\app\src\main\AndroidManifest.xml:41:9-40
 activity#com.example.toto.myapplication.MainActivity
-ADDED from D:\Android\Projects\MyApplication\app\src\main\AndroidManifest.xml:12:9-19:20
+ADDED from D:\Android\Projects\MyApplication\app\src\main\AndroidManifest.xml:74:9-81:20
 	android:screenOrientation
-		ADDED from D:\Android\Projects\MyApplication\app\src\main\AndroidManifest.xml:12:48-84
+		ADDED from D:\Android\Projects\MyApplication\app\src\main\AndroidManifest.xml:74:48-84
 	android:name
-		ADDED from D:\Android\Projects\MyApplication\app\src\main\AndroidManifest.xml:12:19-47
+		ADDED from D:\Android\Projects\MyApplication\app\src\main\AndroidManifest.xml:74:19-47
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from D:\Android\Projects\MyApplication\app\src\main\AndroidManifest.xml:14:13-18:29
+ADDED from D:\Android\Projects\MyApplication\app\src\main\AndroidManifest.xml:76:13-80:29
 action#android.intent.action.MAIN
-ADDED from D:\Android\Projects\MyApplication\app\src\main\AndroidManifest.xml:15:17-69
+ADDED from D:\Android\Projects\MyApplication\app\src\main\AndroidManifest.xml:77:17-69
 	android:name
-		ADDED from D:\Android\Projects\MyApplication\app\src\main\AndroidManifest.xml:15:25-66
+		ADDED from D:\Android\Projects\MyApplication\app\src\main\AndroidManifest.xml:77:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\Android\Projects\MyApplication\app\src\main\AndroidManifest.xml:17:17-77
+ADDED from D:\Android\Projects\MyApplication\app\src\main\AndroidManifest.xml:79:17-77
 	android:name
-		ADDED from D:\Android\Projects\MyApplication\app\src\main\AndroidManifest.xml:17:27-74
+		ADDED from D:\Android\Projects\MyApplication\app\src\main\AndroidManifest.xml:79:27-74
 uses-sdk
 INJECTED from D:\Android\Projects\MyApplication\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\Android\Projects\MyApplication\app\src\main\AndroidManifest.xml
 INJECTED from D:\Android\Projects\MyApplication\app\src\main\AndroidManifest.xml
-MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\68ef2e22458bb90a0aa605896cd4e67a\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\68ef2e22458bb90a0aa605896cd4e67a\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\867728123c041d6a38965bb3c3ecc7b1\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\867728123c041d6a38965bb3c3ecc7b1\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\e9e9810afdd6b5018a53350e0618e797\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\e9e9810afdd6b5018a53350e0618e797\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\f9773c473d8cb5fb00a9dd222f2ad06b\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\f9773c473d8cb5fb00a9dd222f2ad06b\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\c6f2062565e0a671633aa290bb44cc70\AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\c6f2062565e0a671633aa290bb44cc70\AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\12b633fbc89e0c63bfe2cdb8b86145ab\AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\12b633fbc89e0c63bfe2cdb8b86145ab\AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\4d9926d5e9c5625af484b2e1df41d1bb\AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\4d9926d5e9c5625af484b2e1df41d1bb\AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\9900824c4d2d7b5dc461e5c88978f4a8\AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\9900824c4d2d7b5dc461e5c88978f4a8\AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\b702350e43307ee3e60a46c71f2e8305\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\b702350e43307ee3e60a46c71f2e8305\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\38c6bad688684e410a0b185c0798de7d\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\38c6bad688684e410a0b185c0798de7d\AndroidManifest.xml:21:5-23:58
-MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\08f7633df1a58bc328b704fe64ee4115\AndroidManifest.xml:20:5-22:41
-MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\08f7633df1a58bc328b704fe64ee4115\AndroidManifest.xml:20:5-22:41
+MERGED from [io.apisense.sdk:stings-phone:1.12.0-SNAPSHOT] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\stings-phone-1.12.0-SNAPSHOT.aar\54748820a5e760f0bd70f38a9f70724a\AndroidManifest.xml:7:5-9:41
+MERGED from [io.apisense.sdk:stings-phone:1.12.0-SNAPSHOT] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\stings-phone-1.12.0-SNAPSHOT.aar\54748820a5e760f0bd70f38a9f70724a\AndroidManifest.xml:7:5-9:41
+MERGED from [io.apisense.sdk:stings-visualization:1.12.0-SNAPSHOT] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\stings-visualization-1.12.0-SNAPSHOT.aar\0b1b70a457028a1f7b36e7068871b3bb\AndroidManifest.xml:8:5-10:41
+MERGED from [io.apisense.sdk:stings-visualization:1.12.0-SNAPSHOT] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\stings-visualization-1.12.0-SNAPSHOT.aar\0b1b70a457028a1f7b36e7068871b3bb\AndroidManifest.xml:8:5-10:41
+MERGED from [io.apisense.sdk:stings-network:1.12.0-SNAPSHOT] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\stings-network-1.12.0-SNAPSHOT.aar\fbd2e157f2e5deefec3580f9168d9320\AndroidManifest.xml:8:5-10:41
+MERGED from [io.apisense.sdk:stings-network:1.12.0-SNAPSHOT] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\stings-network-1.12.0-SNAPSHOT.aar\fbd2e157f2e5deefec3580f9168d9320\AndroidManifest.xml:8:5-10:41
+MERGED from [io.apisense.network:android-network-measures:1.1.2] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\android-network-measures-1.1.2.aar\8c16af54a637438736db9bcf091806df\AndroidManifest.xml:8:5-10:41
+MERGED from [io.apisense.network:android-network-measures:1.1.2] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\android-network-measures-1.1.2.aar\8c16af54a637438736db9bcf091806df\AndroidManifest.xml:8:5-10:41
+MERGED from [io.apisense.sdk:stings-motion:1.12.0-SNAPSHOT] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\stings-motion-1.12.0-SNAPSHOT.aar\b43d6b15f69fbe66d42fe0d1c23752c6\AndroidManifest.xml:8:5-10:41
+MERGED from [io.apisense.sdk:stings-motion:1.12.0-SNAPSHOT] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\stings-motion-1.12.0-SNAPSHOT.aar\b43d6b15f69fbe66d42fe0d1c23752c6\AndroidManifest.xml:8:5-10:41
+MERGED from [io.apisense.sdk:stings-environment:1.12.0-SNAPSHOT] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\stings-environment-1.12.0-SNAPSHOT.aar\35641f283014d1176f0f3a3285a57f2a\AndroidManifest.xml:8:5-10:41
+MERGED from [io.apisense.sdk:stings-environment:1.12.0-SNAPSHOT] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\stings-environment-1.12.0-SNAPSHOT.aar\35641f283014d1176f0f3a3285a57f2a\AndroidManifest.xml:8:5-10:41
+MERGED from [io.apisense.sdk:apisense-android-sdk:1.12.0-SNAPSHOT] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\apisense-android-sdk-1.12.0-SNAPSHOT.aar\ce0de1d3dc77c92af48cf068d7412f06\AndroidManifest.xml:7:5-9:41
+MERGED from [io.apisense.sdk:apisense-android-sdk:1.12.0-SNAPSHOT] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\apisense-android-sdk-1.12.0-SNAPSHOT.aar\ce0de1d3dc77c92af48cf068d7412f06\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.dkharrat.nexusdialog:nexusdialog:0.4.2] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\nexusdialog-0.4.2.aar\6b2a9ce3417f0f8956d96ef8005ce178\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.dkharrat.nexusdialog:nexusdialog:0.4.2] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\nexusdialog-0.4.2.aar\6b2a9ce3417f0f8956d96ef8005ce178\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:appcompat-v7:27.0.2] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\439f8d20b4f0cf1d6c983b67b90dc463\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.0.2] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\439f8d20b4f0cf1d6c983b67b90dc463\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\31ed04ec9bbcac710e3219b0bf6c61ef\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\31ed04ec9bbcac710e3219b0bf6c61ef\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-messaging:11.8.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.8.0.aar\ed7b532cd099f56829b9c22b6834e0c2\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:11.8.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.8.0.aar\ed7b532cd099f56829b9c22b6834e0c2\AndroidManifest.xml:20:5-44
+MERGED from [com.google.dagger:dagger-android:2.10] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\dagger-android-2.10.aar\8279f54a33bc8335cb487c25dcc4f6e9\AndroidManifest.xml:18:3-42
+MERGED from [com.google.dagger:dagger-android:2.10] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\dagger-android-2.10.aar\8279f54a33bc8335cb487c25dcc4f6e9\AndroidManifest.xml:18:3-42
+MERGED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\c267406dbb6c13ca848cabbe92b1be94\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\c267406dbb6c13ca848cabbe92b1be94\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common:11.8.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\firebase-common-11.8.0.aar\1444c761bdb7b5385d5372b265a7de21\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common:11.8.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\firebase-common-11.8.0.aar\1444c761bdb7b5385d5372b265a7de21\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:11.8.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.8.0.aar\f0972ae28b73a54f44af46de0358c44e\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:11.8.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.8.0.aar\f0972ae28b73a54f44af46de0358c44e\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.8.0.aar\d6d584f12e8c844bb3c2c2e7d4d988f5\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.8.0.aar\d6d584f12e8c844bb3c2c2e7d4d988f5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.0.2] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\support-v4-27.0.2.aar\03f682c8312bf3e5599ba5a710117476\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.0.2] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\support-v4-27.0.2.aar\03f682c8312bf3e5599ba5a710117476\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.2] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.0.2.aar\01ab89d0805d2bf98d484f756f57603b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.2] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.0.2.aar\01ab89d0805d2bf98d484f756f57603b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.2.aar\4798da09ba887ad23b2199e24df1cec3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.2.aar\4798da09ba887ad23b2199e24df1cec3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.2.aar\37e868cb4411c1419c39c1172821a38b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.2.aar\37e868cb4411c1419c39c1172821a38b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.2.aar\bc7ee29ee2a70819d131322627607e8a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.2.aar\bc7ee29ee2a70819d131322627607e8a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.2.aar\be477ffe8ae65b05493e45506ffb587a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.2.aar\be477ffe8ae65b05493e45506ffb587a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.2] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.2.aar\9530b6ac1899deb2e456227f85f04785\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.2] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.2.aar\9530b6ac1899deb2e456227f85f04785\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.2.aar\d03d03df70c33d792ed5f4bbaa0599d4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.2.aar\d03d03df70c33d792ed5f4bbaa0599d4\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging-license:11.8.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\firebase-messaging-license-11.8.0.aar\eedbe0ed54433eb1d2fd6d0cf4f538f5\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-messaging-license:11.8.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\firebase-messaging-license-11.8.0.aar\eedbe0ed54433eb1d2fd6d0cf4f538f5\AndroidManifest.xml:4:5-43
+MERGED from [org.osmdroid:osmdroid-android:5.6.4] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\osmdroid-android-5.6.4.aar\b7ab0afb7b82a4e3a203a7a653c3ec95\AndroidManifest.xml:7:5-9:41
+MERGED from [org.osmdroid:osmdroid-android:5.6.4] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\osmdroid-android-5.6.4.aar\b7ab0afb7b82a4e3a203a7a653c3ec95\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.maps.android:android-maps-utils:0.4] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\android-maps-utils-0.4.aar\d0d7dd46cae20b932852b74b242c7d46\AndroidManifest.xml:5:5-43
+MERGED from [com.google.maps.android:android-maps-utils:0.4] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\android-maps-utils-0.4.aar\d0d7dd46cae20b932852b74b242c7d46\AndroidManifest.xml:5:5-43
+MERGED from [com.google.firebase:firebase-iid-license:11.8.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\firebase-iid-license-11.8.0.aar\d2248222010f8a6df1d952b7efee3add\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-iid-license:11.8.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\firebase-iid-license-11.8.0.aar\d2248222010f8a6df1d952b7efee3add\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.8.0.aar\c0b441015505c8e6d77ffd644820667f\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.8.0.aar\c0b441015505c8e6d77ffd644820667f\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-common-license:11.8.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\firebase-common-license-11.8.0.aar\9d7801d4f7bc20b62a01e1af84e71427\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-common-license:11.8.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\firebase-common-license-11.8.0.aar\9d7801d4f7bc20b62a01e1af84e71427\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-11.8.0.aar\3267d6ddb70748066b5bb679e8fd2921\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-11.8.0.aar\3267d6ddb70748066b5bb679e8fd2921\AndroidManifest.xml:4:5-43
+MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\runtime-1.0.3.aar\5517902d7c5c581ac3d7d176274ed273\AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\runtime-1.0.3.aar\5517902d7c5c581ac3d7d176274ed273\AndroidManifest.xml:20:5-22:41
 INJECTED from D:\Android\Projects\MyApplication\app\src\main\AndroidManifest.xml
 INJECTED from D:\Android\Projects\MyApplication\app\src\main\AndroidManifest.xml
-	tools:overrideLibrary
-		ADDED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\68ef2e22458bb90a0aa605896cd4e67a\AndroidManifest.xml:23:9-75
 	android:targetSdkVersion
 		INJECTED from D:\Android\Projects\MyApplication\app\src\main\AndroidManifest.xml
 		ADDED from D:\Android\Projects\MyApplication\app\src\main\AndroidManifest.xml
@@ -122,31 +252,172 @@ INJECTED from D:\Android\Projects\MyApplication\app\src\main\AndroidManifest.xml
 		INJECTED from D:\Android\Projects\MyApplication\app\src\main\AndroidManifest.xml
 		ADDED from D:\Android\Projects\MyApplication\app\src\main\AndroidManifest.xml
 		INJECTED from D:\Android\Projects\MyApplication\app\src\main\AndroidManifest.xml
-meta-data#android.support.VERSION
-ADDED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\68ef2e22458bb90a0aa605896cd4e67a\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\e9e9810afdd6b5018a53350e0618e797\AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\e9e9810afdd6b5018a53350e0618e797\AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\f9773c473d8cb5fb00a9dd222f2ad06b\AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\f9773c473d8cb5fb00a9dd222f2ad06b\AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\c6f2062565e0a671633aa290bb44cc70\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\c6f2062565e0a671633aa290bb44cc70\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\12b633fbc89e0c63bfe2cdb8b86145ab\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\12b633fbc89e0c63bfe2cdb8b86145ab\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\4d9926d5e9c5625af484b2e1df41d1bb\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\4d9926d5e9c5625af484b2e1df41d1bb\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\9900824c4d2d7b5dc461e5c88978f4a8\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\9900824c4d2d7b5dc461e5c88978f4a8\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\b702350e43307ee3e60a46c71f2e8305\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\b702350e43307ee3e60a46c71f2e8305\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\38c6bad688684e410a0b185c0798de7d\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\38c6bad688684e410a0b185c0798de7d\AndroidManifest.xml:26:9-28:38
-	android:value
-		ADDED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\68ef2e22458bb90a0aa605896cd4e67a\AndroidManifest.xml:28:13-35
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from D:\Android\Projects\MyApplication\app\src\main\AndroidManifest.xml:51:13-54:19
+	android:resource
+		ADDED from D:\Android\Projects\MyApplication\app\src\main\AndroidManifest.xml:53:17-55
 	android:name
-		ADDED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\68ef2e22458bb90a0aa605896cd4e67a\AndroidManifest.xml:27:13-51
-meta-data#android.arch.lifecycle.VERSION
-ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\08f7633df1a58bc328b704fe64ee4115\AndroidManifest.xml:25:9-27:47
-	android:value
-		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\08f7633df1a58bc328b704fe64ee4115\AndroidManifest.xml:27:13-44
+		ADDED from D:\Android\Projects\MyApplication\app\src\main\AndroidManifest.xml:52:17-67
+activity#io.apisense.sting.phone.system.UsageStatsActivity
+ADDED from [io.apisense.sdk:stings-phone:1.12.0-SNAPSHOT] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\stings-phone-1.12.0-SNAPSHOT.aar\54748820a5e760f0bd70f38a9f70724a\AndroidManifest.xml:12:9-14:52
+	android:screenOrientation
+		ADDED from [io.apisense.sdk:stings-phone:1.12.0-SNAPSHOT] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\stings-phone-1.12.0-SNAPSHOT.aar\54748820a5e760f0bd70f38a9f70724a\AndroidManifest.xml:14:13-49
 	android:name
-		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\08f7633df1a58bc328b704fe64ee4115\AndroidManifest.xml:26:13-58
+		ADDED from [io.apisense.sdk:stings-phone:1.12.0-SNAPSHOT] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\stings-phone-1.12.0-SNAPSHOT.aar\54748820a5e760f0bd70f38a9f70724a\AndroidManifest.xml:13:13-77
+service#io.apisense.sdk.core.script.service.ExecutionService
+ADDED from [io.apisense.sdk:apisense-android-sdk:1.12.0-SNAPSHOT] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\apisense-android-sdk-1.12.0-SNAPSHOT.aar\ce0de1d3dc77c92af48cf068d7412f06\AndroidManifest.xml:12:9-16:66
+	android:label
+		ADDED from [io.apisense.sdk:apisense-android-sdk:1.12.0-SNAPSHOT] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\apisense-android-sdk-1.12.0-SNAPSHOT.aar\ce0de1d3dc77c92af48cf068d7412f06\AndroidManifest.xml:16:13-63
+	android:exported
+		ADDED from [io.apisense.sdk:apisense-android-sdk:1.12.0-SNAPSHOT] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\apisense-android-sdk-1.12.0-SNAPSHOT.aar\ce0de1d3dc77c92af48cf068d7412f06\AndroidManifest.xml:15:13-37
+	android:description
+		ADDED from [io.apisense.sdk:apisense-android-sdk:1.12.0-SNAPSHOT] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\apisense-android-sdk-1.12.0-SNAPSHOT.aar\ce0de1d3dc77c92af48cf068d7412f06\AndroidManifest.xml:14:13-76
+	android:name
+		ADDED from [io.apisense.sdk:apisense-android-sdk:1.12.0-SNAPSHOT] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\apisense-android-sdk-1.12.0-SNAPSHOT.aar\ce0de1d3dc77c92af48cf068d7412f06\AndroidManifest.xml:13:13-80
+activity#io.apisense.sdk.core.sting.form.APSFormActivity
+ADDED from [io.apisense.sdk:apisense-android-sdk:1.12.0-SNAPSHOT] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\apisense-android-sdk-1.12.0-SNAPSHOT.aar\ce0de1d3dc77c92af48cf068d7412f06\AndroidManifest.xml:18:9-21:48
+	android:screenOrientation
+		ADDED from [io.apisense.sdk:apisense-android-sdk:1.12.0-SNAPSHOT] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\apisense-android-sdk-1.12.0-SNAPSHOT.aar\ce0de1d3dc77c92af48cf068d7412f06\AndroidManifest.xml:20:13-49
+	android:theme
+		ADDED from [io.apisense.sdk:apisense-android-sdk:1.12.0-SNAPSHOT] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\apisense-android-sdk-1.12.0-SNAPSHOT.aar\ce0de1d3dc77c92af48cf068d7412f06\AndroidManifest.xml:21:13-45
+	android:name
+		ADDED from [io.apisense.sdk:apisense-android-sdk:1.12.0-SNAPSHOT] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\apisense-android-sdk-1.12.0-SNAPSHOT.aar\ce0de1d3dc77c92af48cf068d7412f06\AndroidManifest.xml:19:13-75
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:11.8.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.8.0.aar\ed7b532cd099f56829b9c22b6834e0c2\AndroidManifest.xml:28:9-34:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:11.8.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.8.0.aar\ed7b532cd099f56829b9c22b6834e0c2\AndroidManifest.xml:30:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:11.8.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.8.0.aar\ed7b532cd099f56829b9c22b6834e0c2\AndroidManifest.xml:29:13-82
+intent-filter#com.google.firebase.MESSAGING_EVENT
+ADDED from [com.google.firebase:firebase-messaging:11.8.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.8.0.aar\ed7b532cd099f56829b9c22b6834e0c2\AndroidManifest.xml:31:13-33:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-messaging:11.8.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.8.0.aar\ed7b532cd099f56829b9c22b6834e0c2\AndroidManifest.xml:31:28-51
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from [com.google.firebase:firebase-messaging:11.8.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.8.0.aar\ed7b532cd099f56829b9c22b6834e0c2\AndroidManifest.xml:32:17-78
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:11.8.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.8.0.aar\ed7b532cd099f56829b9c22b6834e0c2\AndroidManifest.xml:32:25-75
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\c267406dbb6c13ca848cabbe92b1be94\AndroidManifest.xml:24:5-68
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\c267406dbb6c13ca848cabbe92b1be94\AndroidManifest.xml:24:22-65
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\c267406dbb6c13ca848cabbe92b1be94\AndroidManifest.xml:26:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\c267406dbb6c13ca848cabbe92b1be94\AndroidManifest.xml:26:22-79
+permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\c267406dbb6c13ca848cabbe92b1be94\AndroidManifest.xml:28:5-30:47
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\c267406dbb6c13ca848cabbe92b1be94\AndroidManifest.xml:30:9-44
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\c267406dbb6c13ca848cabbe92b1be94\AndroidManifest.xml:29:9-63
+permission#com.example.toto.myapplication.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\c267406dbb6c13ca848cabbe92b1be94\AndroidManifest.xml:28:5-30:47
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\c267406dbb6c13ca848cabbe92b1be94\AndroidManifest.xml:30:9-44
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\c267406dbb6c13ca848cabbe92b1be94\AndroidManifest.xml:29:9-63
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\c267406dbb6c13ca848cabbe92b1be94\AndroidManifest.xml:32:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\c267406dbb6c13ca848cabbe92b1be94\AndroidManifest.xml:32:22-76
+uses-permission#com.example.toto.myapplication.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\c267406dbb6c13ca848cabbe92b1be94\AndroidManifest.xml:32:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\c267406dbb6c13ca848cabbe92b1be94\AndroidManifest.xml:32:22-76
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\c267406dbb6c13ca848cabbe92b1be94\AndroidManifest.xml:35:9-44:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\c267406dbb6c13ca848cabbe92b1be94\AndroidManifest.xml:37:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\c267406dbb6c13ca848cabbe92b1be94\AndroidManifest.xml:38:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\c267406dbb6c13ca848cabbe92b1be94\AndroidManifest.xml:36:13-78
+intent-filter#${applicationId}+com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\c267406dbb6c13ca848cabbe92b1be94\AndroidManifest.xml:39:13-43:29
+intent-filter#com.example.toto.myapplication+com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\c267406dbb6c13ca848cabbe92b1be94\AndroidManifest.xml:39:13-43:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\c267406dbb6c13ca848cabbe92b1be94\AndroidManifest.xml:40:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\c267406dbb6c13ca848cabbe92b1be94\AndroidManifest.xml:40:25-78
+category#${applicationId}
+ADDED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\c267406dbb6c13ca848cabbe92b1be94\AndroidManifest.xml:42:17-61
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\c267406dbb6c13ca848cabbe92b1be94\AndroidManifest.xml:42:27-58
+category#com.example.toto.myapplication
+ADDED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\c267406dbb6c13ca848cabbe92b1be94\AndroidManifest.xml:42:17-61
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\c267406dbb6c13ca848cabbe92b1be94\AndroidManifest.xml:42:27-58
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\c267406dbb6c13ca848cabbe92b1be94\AndroidManifest.xml:50:9-56:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\c267406dbb6c13ca848cabbe92b1be94\AndroidManifest.xml:52:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\c267406dbb6c13ca848cabbe92b1be94\AndroidManifest.xml:51:13-77
+intent-filter#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\c267406dbb6c13ca848cabbe92b1be94\AndroidManifest.xml:53:13-55:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\c267406dbb6c13ca848cabbe92b1be94\AndroidManifest.xml:53:28-51
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\c267406dbb6c13ca848cabbe92b1be94\AndroidManifest.xml:54:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\c267406dbb6c13ca848cabbe92b1be94\AndroidManifest.xml:54:25-77
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:11.8.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\firebase-common-11.8.0.aar\1444c761bdb7b5385d5372b265a7de21\AndroidManifest.xml:8:9-12:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:11.8.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\firebase-common-11.8.0.aar\1444c761bdb7b5385d5372b265a7de21\AndroidManifest.xml:10:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:11.8.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\firebase-common-11.8.0.aar\1444c761bdb7b5385d5372b265a7de21\AndroidManifest.xml:11:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:11.8.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\firebase-common-11.8.0.aar\1444c761bdb7b5385d5372b265a7de21\AndroidManifest.xml:12:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:11.8.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\firebase-common-11.8.0.aar\1444c761bdb7b5385d5372b265a7de21\AndroidManifest.xml:9:13-77
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.8.0.aar\d6d584f12e8c844bb3c2c2e7d4d988f5\AndroidManifest.xml:23:9-25:69
+MERGED from [com.google.maps.android:android-maps-utils:0.4] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\android-maps-utils-0.4.aar\d0d7dd46cae20b932852b74b242c7d46\AndroidManifest.xml:8:9-10:69
+MERGED from [com.google.maps.android:android-maps-utils:0.4] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\android-maps-utils-0.4.aar\d0d7dd46cae20b932852b74b242c7d46\AndroidManifest.xml:8:9-10:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.8.0.aar\d6d584f12e8c844bb3c2c2e7d4d988f5\AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.8.0.aar\d6d584f12e8c844bb3c2c2e7d4d988f5\AndroidManifest.xml:24:13-58
+supports-screens
+ADDED from [org.osmdroid:osmdroid-android:5.6.4] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\osmdroid-android-5.6.4.aar\b7ab0afb7b82a4e3a203a7a653c3ec95\AndroidManifest.xml:11:5-14:40
+	android:largeScreens
+		ADDED from [org.osmdroid:osmdroid-android:5.6.4] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\osmdroid-android-5.6.4.aar\b7ab0afb7b82a4e3a203a7a653c3ec95\AndroidManifest.xml:13:9-36
+	android:normalScreens
+		ADDED from [org.osmdroid:osmdroid-android:5.6.4] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\osmdroid-android-5.6.4.aar\b7ab0afb7b82a4e3a203a7a653c3ec95\AndroidManifest.xml:14:9-37
+	android:anyDensity
+		ADDED from [org.osmdroid:osmdroid-android:5.6.4] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\osmdroid-android-5.6.4.aar\b7ab0afb7b82a4e3a203a7a653c3ec95\AndroidManifest.xml:12:9-34
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from [org.osmdroid:osmdroid-android:5.6.4] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\osmdroid-android-5.6.4.aar\b7ab0afb7b82a4e3a203a7a653c3ec95\AndroidManifest.xml:21:5-81
+	android:name
+		ADDED from [org.osmdroid:osmdroid-android:5.6.4] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\osmdroid-android-5.6.4.aar\b7ab0afb7b82a4e3a203a7a653c3ec95\AndroidManifest.xml:21:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from [org.osmdroid:osmdroid-android:5.6.4] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\osmdroid-android-5.6.4.aar\b7ab0afb7b82a4e3a203a7a653c3ec95\AndroidManifest.xml:22:5-80
+IMPLIED from D:\Android\Projects\MyApplication\app\src\main\AndroidManifest.xml:2:1-84:12 reason: org.osmdroid.library requested WRITE_EXTERNAL_STORAGE
+	android:name
+		ADDED from [org.osmdroid:osmdroid-android:5.6.4] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\osmdroid-android-5.6.4.aar\b7ab0afb7b82a4e3a203a7a653c3ec95\AndroidManifest.xml:22:22-77
+uses-feature#android.hardware.location.network
+ADDED from [org.osmdroid:osmdroid-android:5.6.4] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\osmdroid-android-5.6.4.aar\b7ab0afb7b82a4e3a203a7a653c3ec95\AndroidManifest.xml:24:5-26:36
+	android:required
+		ADDED from [org.osmdroid:osmdroid-android:5.6.4] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\osmdroid-android-5.6.4.aar\b7ab0afb7b82a4e3a203a7a653c3ec95\AndroidManifest.xml:26:9-33
+	android:name
+		ADDED from [org.osmdroid:osmdroid-android:5.6.4] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\osmdroid-android-5.6.4.aar\b7ab0afb7b82a4e3a203a7a653c3ec95\AndroidManifest.xml:25:9-57
+uses-feature#android.hardware.location.gps
+ADDED from [org.osmdroid:osmdroid-android:5.6.4] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\osmdroid-android-5.6.4.aar\b7ab0afb7b82a4e3a203a7a653c3ec95\AndroidManifest.xml:27:5-29:36
+	android:required
+		ADDED from [org.osmdroid:osmdroid-android:5.6.4] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\osmdroid-android-5.6.4.aar\b7ab0afb7b82a4e3a203a7a653c3ec95\AndroidManifest.xml:29:9-33
+	android:name
+		ADDED from [org.osmdroid:osmdroid-android:5.6.4] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\osmdroid-android-5.6.4.aar\b7ab0afb7b82a4e3a203a7a653c3ec95\AndroidManifest.xml:28:9-53
+uses-feature#android.hardware.telephony
+ADDED from [org.osmdroid:osmdroid-android:5.6.4] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\osmdroid-android-5.6.4.aar\b7ab0afb7b82a4e3a203a7a653c3ec95\AndroidManifest.xml:30:5-32:36
+	android:required
+		ADDED from [org.osmdroid:osmdroid-android:5.6.4] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\osmdroid-android-5.6.4.aar\b7ab0afb7b82a4e3a203a7a653c3ec95\AndroidManifest.xml:32:9-33
+	android:name
+		ADDED from [org.osmdroid:osmdroid-android:5.6.4] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\osmdroid-android-5.6.4.aar\b7ab0afb7b82a4e3a203a7a653c3ec95\AndroidManifest.xml:31:9-50
+uses-feature#android.hardware.wifi
+ADDED from [org.osmdroid:osmdroid-android:5.6.4] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\osmdroid-android-5.6.4.aar\b7ab0afb7b82a4e3a203a7a653c3ec95\AndroidManifest.xml:33:5-35:36
+	android:required
+		ADDED from [org.osmdroid:osmdroid-android:5.6.4] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\osmdroid-android-5.6.4.aar\b7ab0afb7b82a4e3a203a7a653c3ec95\AndroidManifest.xml:35:9-33
+	android:name
+		ADDED from [org.osmdroid:osmdroid-android:5.6.4] C:\Users\Xabi\.gradle\caches\transforms-1\files-1.1\osmdroid-android-5.6.4.aar\b7ab0afb7b82a4e3a203a7a653c3ec95\AndroidManifest.xml:34:9-45

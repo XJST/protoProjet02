@@ -19,7 +19,7 @@
             "outputFile": "D:\\Android\\Projects\\MyApplication\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Xabi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\68ef2e22458bb90a0aa605896cd4e67a\\res\\values-land\\values-land.xml",
+                    "source": "C:\\Users\\Xabi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\439f8d20b4f0cf1d6c983b67b90dc463\\res\\values-land\\values-land.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",

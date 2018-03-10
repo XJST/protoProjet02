@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="io.apisense.sdk:stings-visualization-1.12.0-SNAPSHOT">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/stings-visualization-1.12.0-SNAPSHOT.aar/0b1b70a457028a1f7b36e7068871b3bb/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/stings-visualization-1.12.0-SNAPSHOT.aar/0b1b70a457028a1f7b36e7068871b3bb/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.apisense.sdk/stings-visualization/1.12.0-SNAPSHOT/4d34734fd1b5c6508d01b15e698e253587260bd/stings-visualization-1.12.0-SNAPSHOT-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
