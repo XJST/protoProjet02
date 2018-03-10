@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="io.apisense.sdk:stings-environment-1.12.0-SNAPSHOT">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/stings-environment-1.12.0-SNAPSHOT.aar/35641f283014d1176f0f3a3285a57f2a/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/stings-environment-1.12.0-SNAPSHOT.aar/35641f283014d1176f0f3a3285a57f2a/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.apisense.sdk/stings-environment/1.12.0-SNAPSHOT/b3705d3491e3a93f7a94f7cea6312415430ec21d/stings-environment-1.12.0-SNAPSHOT-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

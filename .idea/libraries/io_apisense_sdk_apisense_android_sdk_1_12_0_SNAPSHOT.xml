@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="io.apisense.sdk:apisense-android-sdk-1.12.0-SNAPSHOT">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/apisense-android-sdk-1.12.0-SNAPSHOT.aar/ce0de1d3dc77c92af48cf068d7412f06/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/apisense-android-sdk-1.12.0-SNAPSHOT.aar/ce0de1d3dc77c92af48cf068d7412f06/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.apisense.sdk/apisense-android-sdk/1.12.0-SNAPSHOT/a7475232800d005862e64a8ea4565d5e111d826e/apisense-android-sdk-1.12.0-SNAPSHOT-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

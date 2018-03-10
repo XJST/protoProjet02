@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="io.apisense.sdk:stings-phone-1.12.0-SNAPSHOT">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/stings-phone-1.12.0-SNAPSHOT.aar/54748820a5e760f0bd70f38a9f70724a/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/stings-phone-1.12.0-SNAPSHOT.aar/54748820a5e760f0bd70f38a9f70724a/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.apisense.sdk/stings-phone/1.12.0-SNAPSHOT/fd2765100b9003f51ede951b78826c090c4e3d26/stings-phone-1.12.0-SNAPSHOT-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

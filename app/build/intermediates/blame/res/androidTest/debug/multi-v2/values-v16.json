@@ -38,7 +38,7 @@
             "outputFile": "D:\\Android\\Projects\\MyApplication\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-v16\\values-v16.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Xabi\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\38c6bad688684e410a0b185c0798de7d\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\Xabi\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\d03d03df70c33d792ed5f4bbaa0599d4\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -48,7 +48,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Xabi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\68ef2e22458bb90a0aa605896cd4e67a\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\Xabi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\439f8d20b4f0cf1d6c983b67b90dc463\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

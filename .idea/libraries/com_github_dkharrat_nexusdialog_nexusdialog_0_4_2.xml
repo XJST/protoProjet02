@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="com.github.dkharrat.nexusdialog:nexusdialog-0.4.2">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/nexusdialog-0.4.2.aar/6b2a9ce3417f0f8956d96ef8005ce178/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/nexusdialog-0.4.2.aar/6b2a9ce3417f0f8956d96ef8005ce178/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.dkharrat.nexusdialog/nexusdialog/0.4.2/5053c4d4cb54db466620e9e9310d4694cf682095/nexusdialog-0.4.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

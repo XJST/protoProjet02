@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="io.apisense.sdk:stings-motion-1.12.0-SNAPSHOT">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/stings-motion-1.12.0-SNAPSHOT.aar/b43d6b15f69fbe66d42fe0d1c23752c6/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/stings-motion-1.12.0-SNAPSHOT.aar/b43d6b15f69fbe66d42fe0d1c23752c6/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.apisense.sdk/stings-motion/1.12.0-SNAPSHOT/5a282f5adc303a041bd1c4b55dcdde4a8f9bfad7/stings-motion-1.12.0-SNAPSHOT-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
